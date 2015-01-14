@@ -54,7 +54,7 @@ class MyExample3 {
     $this->yearsleft = $yearsleft;
   }
  public function message3() {
-              return "I have started school in " . $this->startingyear . " and will soon be ended in  " . $this->endingyear . ". So that means that I have only " . $this->yearsleft . " years left until I leave PHS.";
+              return "I have started school in " . $this->startingyear . " and will soon be ended in  " . $this->endingyear . ". So right now I still have only " . $this->yearsleft . " years left until I leave PHS.";
             }
           }
 
