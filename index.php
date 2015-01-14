@@ -1,5 +1,5 @@
 <?php 
-class HUMAN {
+class MyExample1 {
   protected $name;
   protected $age;
   protected $mascot;
@@ -12,11 +12,11 @@ class HUMAN {
 }
 
 // and you would use this as:
-$human = new HUMAN ( 'Parker', '16', 'bulldog' );
+$myexample1 = new MyExample1 ( 'Parker', '16', 'bulldog' );
 ?>
 
 <?php 
-class HUMAN2 {
+class MyExample2 {
   protected $grade;
   protected $school;
   protected $district;
@@ -29,10 +29,10 @@ class HUMAN2 {
 }
 
 // and you would use this as:
-$human = new HUMAN2 ( '10th', 'Pasadena High School', 'Pasadena Unified School District' );
+$myexample2 = new MyExample ( '10th', 'Pasadena High School', 'Pasadena Unified School District' );
 ?>
 <?php 
-class HUMAN3 {
+class MyExample3 {
   protected $startingyear;
   protected $endingyear;
   protected $yearsleft;
@@ -45,5 +45,5 @@ class HUMAN3 {
 }
 
 // and you would use this as:
-$human = new HUMAN3 ( '2014', '2017', '2' );
+$myexample3 = new MyExample ( '2014', '2017', '2' );
 ?>
