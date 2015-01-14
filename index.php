@@ -31,3 +31,19 @@ class HUMAN2 {
 // and you would use this as:
 $human = new HUMAN2 ( '10th', 'Pasadena High School', 'Pasadena Unified School District' );
 ?>
+<?php 
+class HUMAN3 {
+  protected $startingyear;
+  protected $endingyear;
+  protected $yearsleft;
+
+  public function __construct ( $startingyear, $endingyear, $yearsleft ) {
+    $this->startingyear = $startingyear;
+    $this->endingyear = $endingyear;
+    $this->yearsleft = $yearsleft;
+  }
+}
+
+// and you would use this as:
+$human = new HUMAN3 ( '2014', '2017', '2' );
+?>
