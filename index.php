@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="../ConstructorsandInheritance/css/font-face.css">
+<link rel="stylesheet" type="text/css" href="../ConstructorsandInheritance/css/main-font.css">
 <?php 
 class MyExample1 {
   public $name;
